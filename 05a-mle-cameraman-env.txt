@@ -1,0 +1,22 @@
+Steps:
+    create a new environment usingvusing command conda create -n mle-cameraman
+    Activate the mle environment using command conda activate mle-cameraman
+    Install python in the environment using command conda install -c conda-forge python=3.8 #(the version of python is 3.8.17)
+    Install requires libraries as numpy,matplotlib using command conda install numpy and then conda install matplotlib
+    Install the library scipy using the command conda install scipy
+    Install opencv:
+        Using the command conda install -c conda-forge opencv #if this doesn't work try with
+                            (or)
+        Deavtivate environment and then use the command sudo apt-get install python3-opencv 
+        If some files are not fetched try again using the command  sudo apt-get install python3-opencv --fix-missing 
+        Activate the environment using command conda activate mle-cameraman
+    Also install ipython using command conda install ipython
+    Now to write the code open ipython using the command ipython python IDLE will be ready to write the code.
+    Run the codes by writing in the IDLE
+
+To make file .py:
+    Exit the python IDLE in terminal using command exit()
+    Type code . to run in vs code 
+    create a file named 05a-mle-cameraman-env.py and write the code and run it.
+    Run the code by selecting interpreter as  ~/miniconda/envs/mle-cameraman/bin/python
+    Save the figure using the code.

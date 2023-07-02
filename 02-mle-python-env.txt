@@ -1,0 +1,17 @@
+Steps:
+    create a new environment using command conda create -n mle-py
+    Activate the mle environment using command conda activate mle-py
+    Install python in the environment using command conda install -c conda-forge python=3.8 #(the version of python is 3.8.17)
+    Install requires libraries as numpy,matplotlib using command conda install numpy and then conda install matplotlib
+    Also install ipython using command conda install ipython
+    If required Install qt5 using the command conda install -c dsdale24 qt5 (or)
+        For qt5 we can use another command if above doesn't work using the command conda install qt qt5;
+    Now to write the code open ipython using the command ipython python IDLE will be ready to write the code.
+    write the lines of code and run it.
+    
+Create a file in the folder:
+    Exit the python IDLE in terminal using command exit()
+    Type code . to run in vs code 
+    create a file named 03-mle-python-surface-bd.py and write the code and run it.
+    select interpreter as the  ~/miniconda/envs/mle-py/bin/python and run the code in the environment mle-py
+    Save the figure using the code.

@@ -1,0 +1,15 @@
+Steps I followed and the environment setup for the mle using julia.
+Steps:
+	Open ubuntu terminal
+	Create new environment using command conda create -n mle.
+	Activate the mle environment using command conda activate mle
+	Install julia in the environment using command conda install -c conda-forge julia
+	After successful installiation activate julia by enter julia in terminal.
+	In the julia by type using Pkg; Pkg.add("Plots") #to add plots to run the code
+	in julia write the codes line by line anf execuate
+
+To save the code file:
+	exit() julia IDLE in the terminal using command exit()
+	then type code . to run for code in .jl file
+	In VS code create a new file named 01-mle.jl
+	write the code and run the file and save the surface fig.
