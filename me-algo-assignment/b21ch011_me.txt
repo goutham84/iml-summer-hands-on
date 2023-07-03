@@ -1,0 +1,10 @@
+The text file is used to steps I followed and conda environment setup in running the code
+Steps:
+  Open Ubuntu terminal
+  create a new enironment (conda create -n me-algo)
+  activate environment (conda activate me-algo)
+  Install python3.8 in the environment (conda install -c conda-forge python=3.8)
+  Install required libraries (numpy, matplotlib) (conda install numpy) (conda install matplotlib)
+  Install ipython
+  Run ipython IDLE by typing ipython and then write code in IDLE and run code.
+  Save the fig using the code.
