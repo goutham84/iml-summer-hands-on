@@ -1,0 +1,15 @@
+Uploading the PCA codes.
+Applying PCA in the given dataset and aslo on random dataset
+On random generated dataset applying PCA, implementing PCA from scratch
+and comparing it with the PCA applied using sklearn library.
+Displaying the dataset after applying PCA
+
+For the PCA in wsl:
+  open wwsl terminal 
+    create a conda environment ("conda create -n pca-env")
+    Activate environment ("conda activate pca-env")
+    Install python in the environment ("conda install -c conda-forge python=3.8')
+    Install required libraries numpy,pandas,sklearn (conda install ___(library name))
+    type code . and code in vs code
+    Create a .ipynb file and set interpreter as the pca-env bin path one
+    and run the PCA codes.
